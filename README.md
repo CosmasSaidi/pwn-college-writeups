@@ -6,7 +6,7 @@ Technical writeups and methodology documentation from hands-on security training
 
 ## 🎯 pwn.college
 
-**Focus Area:** Linux fundamentals, shell interaction, binary basics, web fundamentals, and basic exploitation concepts.
+**Focus Area:** Linux fundamentals, shell interaction, binary basics, and basic exploitation concepts.
 
 ### Skills Practiced
 
@@ -20,8 +20,6 @@ Technical writeups and methodology documentation from hands-on security training
 - Shell scripting fundamentals
 - Understanding binary and byte basics
 - Working with text transformation commands
-- HTTP request crafting and web communication
-- Virtual host enumeration
 
 ### Commands Used
 
@@ -32,7 +30,6 @@ Technical writeups and methodology documentation from hands-on security training
 | Text Processing | `head`, `tr`, `grep`, `printf` |
 | Process Management | `sleep`, `fg`, `bg`, `ps`, `jobs` |
 | Environment | `env`, `export`, `printenv` |
-| Web/HTTP | `nc`, `curl`, `curl -v`, `python requests` |
 
 ### Concepts Learned
 
@@ -44,10 +41,6 @@ Technical writeups and methodology documentation from hands-on security training
 - Basic shell scripting logic
 - Binary representation of data
 - Byte-level understanding of information
-- HTTP request structure and methods
-- Host header and virtual host routing
-- Manual HTTP crafting with netcat
-- Web automation with curl and Python
 
 ### Writeups
 
@@ -58,9 +51,6 @@ Technical writeups and methodology documentation from hands-on security training
 - [Process Control](linux-luminarium/process-control.md) - Background processes, fg/bg, jobs, su
 - [Piping](linux-luminarium/piping.md) - stdin/stdout redirection, command chaining
 - [PATH Manipulation](linux-luminarium/path-manipulation.md) - PATH hijacking techniques
-
-#### HTTP Basics
-- [HTTP Requests](http-basics/http-requests.md) - HTTP requests, netcat, curl, Host header, virtual hosts
 
 #### Playing with Programs
 - [Data Dealings](playing-with-programs/data-dealings.md) - Encoding, base64, hex, binary basics
@@ -102,27 +92,35 @@ Technical writeups and methodology documentation from hands-on security training
 
 ## 🔴 TryHackMe
 
-**Focus Area:** Web application security fundamentals and vulnerability discovery.
+Hands-on learning in both offensive and defensive security workflows.
 
 ### Skills Practiced
 
-- Understanding web authentication mechanisms
-- Inspecting web application behavior
-- Identifying insecure access control mechanisms
-- Observing URL parameter manipulation
+- Web directory enumeration
+- HTTP status code analysis during endpoint discovery
+- Identifying and validating business-logic vulnerabilities
+- SIEM alert triage and SOC investigation workflow
+- Incident response actions (containment and hardening)
+- Basic WAF and rate-limiting defensive tuning
 
 ### Concepts Learned
 
-- Insecure Direct Object Reference (IDOR)
-- Authentication and authorization concepts
-- Web application attack surface
-- Basic web vulnerability discovery
+- Offensive vs defensive security lifecycle
+- Directory brute forcing and hidden endpoint discovery
+- Business logic vulnerability identification
+- SOC and SIEM fundamentals
+- Defense-in-depth controls for web attacks
 
 ### Tools Used
 
+- dirb
 - Web browser
-- Developer tools (page source inspection)
-- Burp Suite (proxy)
+- Linux terminal
+- Basic SOC dashboard
+
+### Writeups
+
+- [Offensive & Defensive Security Intro](tryhackme/offensive-defensive-security-intro.md) - Directory enumeration, business-logic exploitation, SIEM-driven response and mitigation
 
 ---
 
