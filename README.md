@@ -59,11 +59,8 @@ Technical writeups and methodology documentation from hands-on security training
 - [Piping](linux-luminarium/piping.md) - stdin/stdout redirection, command chaining
 - [PATH Manipulation](linux-luminarium/path-manipulation.md) - PATH hijacking techniques
 
-#### Talking Web
-- [Web Fundamentals](linux-luminarium/web-fundamentals.md) - HTTP requests, netcat, curl, Host header, virtual hosts
-- [Process Control](linux-luminarium/process-control.md) - Background processes, fg/bg, jobs, su
-- [Piping](linux-luminarium/piping.md) - stdin/stdout redirection, command chaining
-- [PATH Manipulation](linux-luminarium/path-manipulation.md) - PATH hijacking techniques
+#### HTTP Basics
+- [HTTP Requests](http-basics/http-requests.md) - HTTP requests, netcat, curl, Host header, virtual hosts
 
 #### Playing with Programs
 - [Data Dealings](playing-with-programs/data-dealings.md) - Encoding, base64, hex, binary basics
