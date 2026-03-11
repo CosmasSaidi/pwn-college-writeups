@@ -107,6 +107,13 @@ Hands-on learning in both offensive and defensive security workflows.
 - HTTP header and method analysis
 - Intro analysis of HTML/JavaScript-driven web behavior
 - Recognizing exposure and injection risk patterns
+- CIA triad and core cybersecurity principles
+- Packet capture and protocol inspection
+- Network service discovery and reconnaissance
+- Web technology fingerprinting and application mapping
+- Password attack concepts and authentication risk awareness
+- Data encoding and binary representation basics
+- Python, JavaScript, SQL, and backend technology awareness
 
 ### Concepts Learned
 
@@ -127,6 +134,14 @@ Hands-on learning in both offensive and defensive security workflows.
 - Kernel vs user space separation
 - Endpoint security investigation
 - Boot process and BIOS/UEFI
+- CIA triad application to security controls
+- Symmetric vs asymmetric encryption concepts
+- Packet layer analysis across DNS and transport protocols
+- Port scanning, service exposure, and attack surface mapping
+- Web stack fingerprinting through headers and technology indicators
+- Password security controls, MFA, and rate limiting importance
+- Data encoding versus encryption versus hashing distinctions
+- SQL, JavaScript, and Node.js relevance to application security
 
 ### Tools Used
 
@@ -138,12 +153,22 @@ Hands-on learning in both offensive and defensive security workflows.
 - ping
 - Wireshark
 - Burp Suite
+- Nmap
+- WhatWeb
+- Gobuster
+- Hydra
+- curl
+- xxd
+- hexdump
+- base64
+- Python
 
 ### Writeups
 
 - [Offensive & Defensive Security Intro](tryhackme/offensive-defensive-security-intro.md) - Directory enumeration, business-logic exploitation, SIEM-driven response and mitigation
 - [Web Fundamentals](tryhackme/web-fundamentals-networking-http-security.md) - DNS, ICMP, HTTP, OSI model, web architecture, and intro web security concepts
 - [Computer Fundamentals & OS Security](tryhackme/computer-fundamentals-virtualization-os-security.md) - Hardware, virtualization, cloud, client-server, OS security, kernel vs user space
+- [Security Fundamentals, Crypto & Recon Concepts](tryhackme/security-fundamentals-crypto-recon-programming.md) - CIA triad, cryptography, packet analysis, reconnaissance, encoding, and programming security concepts
 
 ---
 
@@ -178,6 +203,10 @@ Hands-on learning in both offensive and defensive security workflows.
 | Browser DevTools | Web security testing |
 | LinPEAS | Automated enumeration |
 | GTFOBins | Binary exploitation reference |
+| Wireshark | Packet capture and protocol inspection |
+| Nmap | Service discovery and reconnaissance |
+| WhatWeb | Technology fingerprinting |
+| Gobuster | Application content enumeration |
 
 ---
 
@@ -189,6 +218,8 @@ Hands-on learning in both offensive and defensive security workflows.
 - Shell scripting and automation
 - Binary and data representation basics
 - Privilege escalation techniques
+- Cryptography concepts
+- Packet analysis and service fingerprinting
 
 ---
 
