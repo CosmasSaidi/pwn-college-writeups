@@ -170,6 +170,7 @@ Hands-on learning in both offensive and defensive security workflows.
 - [Computer Fundamentals & OS Security](tryhackme/computer-fundamentals-virtualization-os-security.md) - Hardware, virtualization, cloud, client-server, OS security, kernel vs user space
 - [Security Fundamentals, Crypto & Recon Concepts](tryhackme/security-fundamentals-crypto-recon-programming.md) - CIA triad, cryptography, packet analysis, reconnaissance, encoding, and programming security concepts
 - [Practical Attack Lifecycle Summary](tryhackme/practical-attack-lifecycle-summary.md) - High-level exploitation-to-post-exploitation learning journal with defensive takeaways (no direct platform solutions)
+- [NTLM Credential Exposure & Moniker Link Risk](tryhackme/ntlm-credential-exposure-and-moniker-link-risk.md) - NetNTLMv2 exposure patterns, Responder lab awareness, CVE-2024-21413 risk context, and defensive hardening priorities
 
 ---
 
