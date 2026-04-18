@@ -1,14 +1,12 @@
 # Cybersecurity Learning Journey
 
-Technical writeups and methodology documentation from hands-on security training platforms
-and **self-directed independent lab work** (VulnVault).
+Technical writeups and methodology documentation from hands-on security training platforms and **self-directed independent lab work** (VulnVault).
 
 ---
 
 ## 🎯 pwn.college
 
-**Focus Area:** Linux fundamentals, shell interaction, binary basics, and basic exploitation
-concepts.
+**Focus Area:** Linux fundamentals, shell interaction, binary basics, and basic exploitation concepts.
 
 ### Skills Practiced
 
@@ -48,25 +46,20 @@ concepts.
 
 #### Linux Luminarium
 - [File Permissions](linux-luminarium/file-permissions.md) - chmod, ownership, SUID/SGID
-- [Environment Variables](linux-luminarium/environment-variables.md) - PATH, variable
-  manipulation
-- [Shell Scripting](linux-luminarium/shell-scripting.md) - Bash fundamentals, shebang,
-  command substitution
-- [Process Control](linux-luminarium/process-control.md) - Background processes, fg/bg,
-  jobs, su
+- [Environment Variables](linux-luminarium/environment-variables.md) - PATH, variable manipulation
+- [Shell Scripting](linux-luminarium/shell-scripting.md) - Bash fundamentals, shebang, command substitution
+- [Process Control](linux-luminarium/process-control.md) - Background processes, fg/bg, jobs, su
 - [Piping](linux-luminarium/piping.md) - stdin/stdout redirection, command chaining
 - [PATH Manipulation](linux-luminarium/path-manipulation.md) - PATH hijacking techniques
 
 #### Playing with Programs
-- [Data Dealings](playing-with-programs/data-dealings.md) - Encoding, base64, hex, binary
-  basics
+- [Data Dealings](playing-with-programs/data-dealings.md) - Encoding, base64, hex, binary basics
 
 ---
 
 ## 🟩 Hack The Box Academy
 
-**Focus Area:** Linux system fundamentals, system enumeration, and understanding system
-configuration.
+**Focus Area:** Linux system fundamentals, system enumeration, and understanding system configuration.
 
 ### Skills Practiced
 
@@ -176,13 +169,11 @@ Hands-on learning in both offensive and defensive security workflows.
 
 - [Offensive & Defensive Security Intro](tryhackme/offensive-defensive-security-intro.md)
   - Directory enumeration, business-logic exploitation, SIEM-driven response and mitigation
-- [Web Fundamentals](tryhackme/web-fundamentals-networking-http-security.md) - DNS, ICMP,
-  HTTP, OSI model, web architecture, and intro web security concepts
+- [Web Fundamentals](tryhackme/web-fundamentals-networking-http-security.md) - DNS, ICMP, HTTP, OSI model, web architecture, and intro web security concepts
 - [Computer Fundamentals & OS Security](tryhackme/computer-fundamentals-virtualization-os-security.md)
   - Hardware, virtualization, cloud, client-server, OS security, kernel vs user space
 - [Security Fundamentals, Crypto & Recon Concepts](tryhackme/security-fundamentals-crypto-recon-programming.md)
-  - CIA triad, cryptography, packet analysis, reconnaissance, encoding, and programming security
-  concepts
+  - CIA triad, cryptography, packet analysis, reconnaissance, encoding, and programming security concepts
 - [Practical Attack Lifecycle Summary](tryhackme/practical-attack-lifecycle-summary.md)
   - High-level exploitation-to-post-exploitation learning journal with defensive takeaways
 - [NTLM Credential Exposure & Moniker Link Risk](tryhackme/ntlm-credential-exposure-and-moniker-link-risk.md)
@@ -192,13 +183,9 @@ Hands-on learning in both offensive and defensive security workflows.
 
 ## 🧪 VulnVault Self-Directed Independent Lab
 
-**Status:** Self-researched, self-setup vulnerable web application lab (Flask-based,
-localhost:5000)
+**Status:** Self-researched, self-setup vulnerable web application lab (Flask-based, localhost:5000)
 
-This section documents **independent achievement** in cybersecurity hands-on work. All VulnVault
-material is the result of self-directed learning—no platform guidance, no tutorials—deploying a
-vulnerable application locally and systematically discovering, understanding, and exploiting
-web security vulnerabilities through practical attack methodology.
+This section documents **independent achievement** in cybersecurity hands-on work. All VulnVault material is the result of self-directed learning—no platform guidance, no tutorials—deploying a vulnerable application locally and systematically discovering, understanding, and exploiting web security vulnerabilities through practical attack methodology.
 
 ### Independent Lab Work
 
@@ -246,8 +233,7 @@ web security vulnerabilities through practical attack methodology.
 
 ### Key Achievement
 
-Successfully designed, deployed, tested, and fully documented a complete attack-to-compromise
-workflow on a vulnerable web application, demonstrating:
+Successfully designed, deployed, tested, and fully documented a complete attack-to-compromise workflow on a vulnerable web application, demonstrating:
 - ✅ End-to-end penetration testing methodology
 - ✅ Multi-stage exploitation (enumeration → injection → RCE → escalation)
 - ✅ Complete data exfiltration capability
@@ -319,16 +305,12 @@ workflow on a vulnerable web application, demonstrating:
 
 ## 🎓 Learning Methodology
 
-**Platform-Based:** Structured learning paths on established CTF and security training platforms
-provide guided progression through fundamental concepts with validated solutions.
+**Platform-Based:** Structured learning paths on established CTF and security training platforms provide guided progression through fundamental concepts with validated solutions.
 
-**Self-Directed Lab:** Independent vulnerability research, exploitation, and documentation
-validates practical understanding and demonstrates autonomous security research capability.
+**Self-Directed Lab:** Independent vulnerability research, exploitation, and documentation validates practical understanding and demonstrates autonomous security research capability.
 
-**Cross-Platform Integration:** Combining platform-guided learning with independent lab work
-ensures both structured knowledge and hands-on mastery.
+**Cross-Platform Integration:** Combining platform-guided learning with independent lab work ensures both structured knowledge and hands-on mastery.
 
 ---
 
-*Methodology documentation only. No flags or direct platform solutions included. VulnVault
-lab work represents independent research and self-directed exploitation testing.*
+*Methodology documentation only. No flags or direct platform solutions included. VulnVault lab work represents independent research and self-directed exploitation testing.*
